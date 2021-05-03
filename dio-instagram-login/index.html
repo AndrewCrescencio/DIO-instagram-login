@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Instagram's login page clone</title>
+      <script src="https://kit.fontawesome.com/881d0e5c76.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./styles/styles.css" />
+   </head>
+   <body>
+      <main>
+         <figure>
+            <img src="./img/instagram-celular.png" alt="" />
+         </figure>
+         <section>
+            <div class="login">
+               <div class="login__logo">
+                  <div><img src="./img/instagram-logo.png" alt="" /></div>
+               </div>
+               <form class="login__form">
+                  <input id="login" type="text" placeholder="Telefone, nome de usuário ou email" required />
+                  <input id="password" type="password" placeholder="Senha" minlength="8" onfocusout="checkInput()" required />
+                  <input id="button" class="button" type="submit" value="Entrar" />
+               </form>
+               <div class="login__or">
+                  <span>ou</span>
+               </div>
+               <div class="login__facebook">
+                  <p><i class="fab fa-facebook-square"></i> Entrar com Facebook</p>
+               </div>
+               <a class="login__forgotpass" href="/accounts/password/reset/">Esqueceu a senha?</a>
+            </div>
+            <div class="no-account">
+               <p>
+                  Não tem uma conta?
+                  <a class="no-account__link" href="https://www.instagram.com/accounts/emailsignup/">Cadastra-se</a>
+               </p>
+            </div>
+            <div class="download">
+               <p>Obtenha o aplicativo.</p>
+               <div class="download__buttons">
+                  <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img class="download__button"
+                     src="./img/apple-button.png" alt="" /></a>
+                  <a
+                     href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=signupPage&ig_mid=90B95E59-C413-4F93-8FD2-412FC8E26DED&utm_content=lo&utm_medium=badge"><img
+                     class="download__button" src="./img/googleplay-button.png" alt="" /></a>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <div>
+            <ul class="footer-links">
+               <li><a href="https://about.instagram.com/">Sobre</a></li>
+               <li><a href="https://about.instagram.com/blog/">Blog</a></li>
+               <li><a href="https://www.instagram.com/about/jobs/">Carreiras</a></li>
+               <li>
+                  <a href="https://help.instagram.com/">Ajuda</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/developer/">API</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/legal/privacy/">Privacidade</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/legal/terms/">Termos</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/directory/profiles/">Principais contas</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/directory/hashtags/">Hashtags</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/explore/locations/">Localizações</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/beauty/">Beleza</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/dance-and-performance/">Dança e apresentação</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/fitness/">Fitness</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/food-and-drink/">Comida e bebida</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/home-and-garden/">Casa e jardim</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/music/">Música</a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/topics/visual-arts/">Artes visuais</a>
+               </li>
+            </ul>
+         </div>
+      </footer>
+   </body>
+</html>
