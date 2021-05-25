@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+html,
+body {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 800px) {
+  main {
+    height: 80vh;
+  }
+}
+
+figure img {
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  figure {
+    display: none;
+  }
+}
+
+section {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.login {
+  padding: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .login__logo {
+  margin: 2rem 0;
+}
+
+.login .login__form {
+  width: 100%;
+  max-width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .login__form input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 0.875rem;
+}
+
+.login .login__form .button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #0095f6;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.login .login__or {
+  width: 100%;
+  height: 1rem;
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.login .login__or::before {
+  content: "";
+  width: 105px;
+  height: 2px;
+  background-color: #efefef;
+}
+
+.login .login__or::after {
+  content: "";
+  width: 105px;
+  height: 2px;
+  background-color: #efefef;
+}
+
+.login .login__facebook {
+  margin: 0.5rem 0;
+  color: #385185;
+}
+
+.login .login__facebook p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.login .login__facebook .fa-facebook-square {
+  font-size: 1.25rem;
+}
+
+.login .login__forgotpass {
+  margin: 1rem 0;
+  color: #00376b;
+}
+
+@media (min-width: 450px) {
+  .login {
+    margin-top: 2rem;
+    border: 1px solid #dbdbdb;
+  }
+}
+
+.no-account {
+  margin: 1rem 0;
+}
+
+.no-account .no-account__link {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 450px) {
+  .no-account {
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    border: 1px solid #dbdbdb;
+  }
+}
+
+.download {
+  margin-top: 2rem;
+}
+
+.download p {
+  margin-bottom: 1rem;
+}
+
+.download .download__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.download .download__button {
+  width: 136px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+footer {
+  margin: 4rem 0;
+}
+
+footer .footer-links {
+  max-width: 630px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer-links li {
+  padding: 0 0.5rem 0.5rem;
+}
+
+footer .footer-links li a {
+  color: #8e8e8e;
+  font-size: 0.75rem;
+}
+/*# sourceMappingURL=styles.css.map */
